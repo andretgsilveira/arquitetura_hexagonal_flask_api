@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  hexagonal-architecture-python:
+    build: ./
+    command: python main.py
+    volumes:
+      - ./:/usr/src/app/
+    ports:
+      - 5000:5000
