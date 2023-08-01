@@ -22,18 +22,19 @@ def create_flask_app():
 
     @app.route('/consultaCadastro/<int:id>', methods=['GET'])
     def getByID(id):
-        cliente.getByID(id)
+        return cliente.getByID(id)
 
     @app.route('/listaCadastros', methods=['GET'])
-    def getList(self):
-        cliente.getList()
+    def getList():
+        return cliente.getList()
 
-    @app.route('/delete/<int:id>')
+    @app.route('/modificar/<int:id>', methods=['PATCH'])
     def modificaByID(id):
-        cliente.modificaByID(id)
+        dados = request.get_json()
+        return cliente.modificaByID(dados, id)
 
-    @app.route('/delete/<int:id>')
-    def deletaByID(self, id):
-        cliente.deletaByID(id)
+    @app.route('/delete/<int:id>', methods=['DELETE'])
+    def deletaByID(id):
+        return cliente.deletaByID(id)
 
     return app
