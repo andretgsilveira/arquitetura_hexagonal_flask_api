@@ -1,5 +1,4 @@
 import itertools
-import json
 
 from flask import jsonify
 from services.ports.cadastroInterface import CadastroInterface
