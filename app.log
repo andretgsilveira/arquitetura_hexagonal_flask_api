@@ -1,0 +1,58 @@
+2023-08-02 09:55:48,947 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/cadastro', 'json': {'nome': 'chaves', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-02 09:57:46,205 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/cadastro', 'json': {'nome': 'chaves', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-02 09:59:38,370 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/cadastro', 'json': {'nome': 'chaves', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-02 09:59:41,625 - api - DEBUG - Metodo incorreto. Metodo: %s, Method: - GET
+2023-08-02 15:40:12,974 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'chaves', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-02 15:40:23,544 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-02 15:40:33,475 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-02 15:40:42,326 - api - DEBUG - Rota não encontrada. Path: - /0
+2023-08-02 15:41:30,147 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'chaves', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-02 15:41:37,345 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'babi', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-02 15:41:40,064 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-02 15:41:43,448 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-02 15:41:48,194 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-02 15:41:56,505 - api - DEBUG - Modificar usuário por id - {'method': 'PATCH', 'path': '/api/0', 'json': {'nome': 'klebe'}}
+2023-08-02 15:42:01,522 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-02 15:42:14,047 - api - DEBUG - Deletar usuário por id. - {'method': 'DELETE', 'path': '/api/0'}
+2023-08-03 08:00:04,092 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 08:00:19,819 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 08:01:18,431 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 08:29:14,910 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 15:56:06,560 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'babi', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-03 15:56:09,814 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 15:56:13,518 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-03 15:56:20,693 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 15:56:30,574 - api - DEBUG - Modificar usuário por id - {'method': 'PATCH', 'path': '/api/0', 'json': {'nome': 'klebe'}}
+2023-08-03 15:56:35,295 - api - DEBUG - Deletar usuário por id. - {'method': 'DELETE', 'path': '/api/0'}
+2023-08-03 15:56:39,083 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 15:56:41,826 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 16:00:58,898 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'babi', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-03 16:01:01,903 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:01:04,677 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 16:01:09,493 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-03 16:01:14,460 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/2'}
+2023-08-03 16:02:23,216 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/2'}
+2023-08-03 16:02:35,228 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:02:43,260 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-03 16:02:48,074 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 16:03:38,752 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 16:03:48,227 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-03 16:13:43,442 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'babi', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-03 16:13:46,160 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-03 16:13:49,519 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:14:18,156 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:15:16,734 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:15:53,343 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:16:08,935 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:16:31,951 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:17:05,629 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:21:20,174 - api - DEBUG - Modificar usuário por id - {'method': 'PATCH', 'path': '/api/0', 'json': {'nome': 'klebe', 'idade': 40}}
+2023-08-03 16:26:41,382 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'babi', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-03 16:26:44,271 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:27:51,614 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/1'}
+2023-08-03 16:27:56,816 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 16:28:02,288 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 16:28:05,035 - api - DEBUG - Cadastrar usuário - {'method': 'POST', 'path': '/api', 'json': {'nome': 'babi', 'sobrenome': 'da Silva', 'idade': 30, 'pais': 'Brasil'}}
+2023-08-03 16:28:08,716 - api - DEBUG - Consultar usuario por id. - {'method': 'GET', 'path': '/api/0'}
+2023-08-03 16:28:58,007 - api - DEBUG - Consultar lista de usuários. - {'method': 'GET', 'path': '/api'}
+2023-08-03 20:45:03,774 - api - DEBUG - Consultar lista de usuarios. - {'method': 'GET', 'path': '/api'}
