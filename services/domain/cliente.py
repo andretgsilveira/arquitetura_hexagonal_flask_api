@@ -1,7 +1,8 @@
 import json
 
-
+# Classe do objeto cliente contendo seus atributos e suas representações
 class Cliente():
+
     def __init__(self, id, nome, sobrenome, idade, pais):
         self.id = id
         self.nome = nome

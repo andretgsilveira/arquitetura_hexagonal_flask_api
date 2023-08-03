@@ -1,5 +1,6 @@
-from services.adapters.primary import create_flask_app
+from services.adapters.app import create_flask_app
 import logging
+import pytest
 
 if __name__ == '__main__':
 
@@ -9,6 +10,7 @@ if __name__ == '__main__':
     logger = logging.getLogger("api")
     logger.addHandler(file_handler)
     logger.setLevel(logging.DEBUG)
-
+    pytest.main(["-v"])
     app = create_flask_app(logger)
     app.run(debug=True, host='0.0.0.0')
+
